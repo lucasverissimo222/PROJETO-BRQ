@@ -1,11 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 h1 {
   color: rgb(25, 0, 255);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30pix;
   text-shadow: 2px 2px 2px slategrey;
+  text-align: center;
+  margin: revert;
 }
+h2 {
+  font-style: italic;
+}
+
 p {
   text-indent: 20px;
+  font-weight: lighter;
 }
 #muda {
   color: red;
@@ -15,11 +27,61 @@ p {
   color: cadetblue;
 }
 
-#titulos {
+.titulos {
   text-align: center;
+  display: inline-block;
 }
 
 section table th,
 td {
   border: 1px solid black;
+}
+
+.corDaTabela {
+  color: rgb(177, 17, 137);
+  background-color: blue;
+}
+
+#cabecalho {
+  background-image: url(../assets/brq.jpeg);
+  width: 100%;
+  background-attachment: fixed;
+  opacity: 0.8;
+  border-radius: 20px;
+  padding-top: 5rem;
+  height: 500px;
+  text-align: center;
+}
+header {
+  padding-top: 10rem;
+}
+
+.imagemDeFundo {
+  border-right-style: dashed;
+  object-fit: cover;
+}
+#Titulo2 {
+  padding: 0.3rem;
+  text-align: center;
+  color: cadetblue;
+  display: inline-block;
+  border-style: double;
+  border-bottom-color: black;
+  border-top-color: aqua;
+}
+
+.image img {
+  position: relative;
+  right: 2.93rem;
+}
+
+.listaBonita {
+  border: 1px solid #606060;
+  border-spacing: 0;
+  text-align: center;
+  background-color: darkgrey;
+}
+
+.espacoTopo {
+  margin-top: 1rem;
 }
