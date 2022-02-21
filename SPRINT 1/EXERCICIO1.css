@@ -50,6 +50,7 @@ td {
   border-radius: 20px;
   padding-top: 5rem;
   height: 500px;
+  display: inline-block;
   text-align: center;
 }
 header {
@@ -84,4 +85,9 @@ header {
 
 .espacoTopo {
   margin-top: 1rem;
+}
+
+.alinhando {
+  display: inline-block;
+  vertical-align: bottom;
 }

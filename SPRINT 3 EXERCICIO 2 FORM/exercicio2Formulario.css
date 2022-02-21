@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(153, 97, 228);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#titulo {
+  font-family: sans-serif;
+  color: #000000;
+  margin-left: 6%;
+}
+#subTitulo {
+  font-family: sans-serif;
+  color: #000000;
+  margin-left: 7%;
+}
+fieldset {
+  border-radius: 10px;
+}
+.botao {
+  padding: 0.4rem;
+  background-color: #54466b;
+  cursor: grab;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
