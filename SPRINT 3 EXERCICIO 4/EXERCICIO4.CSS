@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(117, 81, 83);
+  margin-top: 12%;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+nav {
+  display: flex;
+  border-radius: 2rem solid blue;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.alinhando {
+  width: 20px;
+  height: 18px;
+  display: flex;
+  border-radius: 10px;
+}
