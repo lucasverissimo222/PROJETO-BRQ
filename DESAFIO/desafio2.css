@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  bottom: 12px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li a {
+  padding: 12px;
+}
+
+.imagem1 {
+  position: absolute;
+  width: 102px;
+  height: 76px;
+  left: 105px;
+  top: 41px;
+}
+
+#header {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+
+  width: 1025px;
+  height: 158px;
+  left: 0px;
+  top: 0;
+  background-color: #22a0a0;
+}
+
+nav ul li a::after {
+  content: '';
+
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: 12px;
+  bottom: -0.5rem;
+}
+
+nav ul li a:hover::after,
+nav ul li a.active::after {
+  width: 63%;
+}
+nav ul li a {
+  position: relative;
+}
+
+.barra {
+  position: absolute;
+  width: 250px;
+  height: 38px;
+  left: 400px;
+  top: 79px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.image2 {
+  position: absolute;
+  width: 32px;
+  height: 26px;
+  left: 620px;
+  top: 85px;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+  background: url(/assets/loupe\ 1.png);
+  outline: none;
+  cursor: pointer;
+}
+.menu ul li a {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.menu ul li a.title1 {
+  position: absolute;
+  width: auto;
+  height: 23px;
+  left: 688px;
+  top: 80px;
+}
+.menu ul li a.title2 {
+  position: absolute;
+  width: auto;
+  height: 23px;
+  left: 758px;
+  top: 80px;
+}
+.menu ul li a.title3 {
+  position: absolute;
+  width: auto;
+  height: 23px;
+  left: 834px;
+  top: 80px;
+}
+
+.section {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  left: 0;
+  top: 1353px;
+  width: 1025px;
+  height: 115px;
+  align-items: center;
+  background-color: #22a0a0;
+}
+
+.container h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.h1Principal {
+  position: absolute;
+  width: 290px;
+  height: 23px;
+  left: 368px;
+  top: 208px;
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.backColorido {
+  position: absolute;
+  width: 1024px;
+  height: 266px;
+  left: 0px;
+  top: 260px;
+
+  background: #ddf2f2;
+}
+
+.imagem2 {
+  position: absolute;
+  width: 477px;
+  height: 212px;
+  left: 103px;
+  top: 288px;
+  border-radius: 10px;
+}
+.p1 {
+  position: absolute;
+  width: 239px;
+  height: 110px;
+  left: 649px;
+  top: 320px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  z-index: 1;
+  color: #000000;
+}
+.span1 {
+  position: absolute;
+  width: 66px;
+  height: 15px;
+  left: 832px;
+  top: 433px;
+
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  z-index: 1;
+  color: #000000;
+}
+
+.p2 {
+  position: absolute;
+  width: 252px;
+  height: 132px;
+  left: 103px;
+  top: 597px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #000000;
+}
+.backColorido2 {
+  position: absolute;
+  width: 1024px;
+  height: 266px;
+  left: 1px;
+  top: 791px;
+
+  background: #ddf2f2;
+}
+.imagem3 {
+  position: absolute;
+  width: 477px;
+  height: 212px;
+  left: 421px;
+  top: 552px;
+  border-radius: 10px;
+}
+.span2 {
+  position: absolute;
+  width: 66px;
+  height: 15px;
+  left: 310px;
+  top: 714px;
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #000000;
+}
+
+.p3 {
+  position: absolute;
+  width: 259px;
+  height: 108px;
+  left: 639px;
+  top: 849px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  z-index: 1;
+  color: #000000;
+}
+.imagem4 {
+  position: absolute;
+  width: 477px;
+  height: 212px;
+  left: 103px;
+  top: 818px;
+  border-radius: 10px;
+}
+.p4 {
+  position: absolute;
+  width: 252px;
+  height: 110px;
+  left: 106px;
+  top: 1131px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  z-index: 1;
+  color: #000000;
+}
+.span4 {
+  position: absolute;
+  width: 66px;
+  height: 15px;
+  left: 330px;
+  top: 1248px;
+
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  z-index: 1;
+  color: #000000;
+}
+.imagem5 {
+  position: absolute;
+  width: 477px;
+  height: 212px;
+  left: 441px;
+  top: 1086px;
+  border-radius: 10px;
+}

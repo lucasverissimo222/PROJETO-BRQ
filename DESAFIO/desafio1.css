@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  bottom: 12px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li a {
+  padding: 12px;
+}
+
+.imagem1 {
+  position: absolute;
+  width: 102px;
+  height: 76px;
+  left: 105px;
+  top: 41px;
+}
+
+#header {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+
+  width: 1025px;
+  height: 158px;
+  left: 0px;
+  top: 0;
+  background-color: #22a0a0;
+}
+
+nav ul li a::after {
+  content: '';
+
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: 12px;
+  bottom: -0.5rem;
+}
+
+nav ul li a:hover::after,
+nav ul li a.active::after {
+  width: 63%;
+}
+nav ul li a {
+  position: relative;
+}
+
+.barra {
+  position: absolute;
+  width: 250px;
+  height: 38px;
+  left: 400px;
+  top: 79px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.image2 {
+  position: absolute;
+  width: 32px;
+  height: 26px;
+  left: 620px;
+  top: 85px;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+  background: url(/assets/loupe\ 1.png);
+  outline: none;
+  cursor: pointer;
+}
+.menu ul li a {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.menu ul li a.title1 {
+  position: absolute;
+  width: auto;
+  height: 23px;
+  left: 688px;
+  top: 80px;
+}
+.menu ul li a.title2 {
+  position: absolute;
+  width: auto;
+  height: 23px;
+  left: 758px;
+  top: 80px;
+}
+.menu ul li a.title3 {
+  position: absolute;
+  width: auto;
+  height: 23px;
+  left: 834px;
+  top: 80px;
+}
+
+.section {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  left: 0;
+  top: 1353px;
+  width: 1025px;
+  height: 115px;
+  align-items: center;
+  background-color: #22a0a0;
+}
+
+.container h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.h1Principal {
+  position: absolute;
+
+  height: 23px;
+  left: 394px;
+  top: 208px;
+
+  /* Titulo */
+
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.imagem4 {
+  position: absolute;
+  width: 477px;
+  height: 212px;
+  left: 105px;
+  top: 282px;
+  max-width: 100%;
+
+  background: url(/assets/Rectangle\ 20.jpg);
+  border-radius: 10px;
+}
+
+.topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primeiroh2 {
+  position: absolute;
+  width: 477px;
+  height: 34px;
+  left: 105px;
+  top: 506px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.primeiroP {
+  position: absolute;
+  width: 482px;
+  height: 68px;
+  left: 105px;
+  top: 547px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.segundoh2 {
+  position: absolute;
+  width: 217px;
+  height: 51px;
+  left: 103px;
+  top: 842px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.segundoP {
+  position: absolute;
+  width: 215.2px;
+  height: 68px;
+  left: 104.8px;
+  top: 908px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.imagem5 {
+  position: absolute;
+  width: 214.3px;
+  height: 158px;
+  left: 103px;
+  top: 666px;
+  border-radius: 10px;
+}
+
+.topo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.topo div {
+  flex: 1 1 200px;
+}
+
+.terceiroh2 {
+  position: absolute;
+  width: 216px;
+  height: 51px;
+  left: 369px;
+  top: 842px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.terceiroP {
+  position: absolute;
+  width: 214.21px;
+  height: 68px;
+  left: 370.79px;
+  top: 908px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.imagem6 {
+  position: absolute;
+  width: 213.31px;
+  height: 158px;
+  left: 369px;
+  top: 666px;
+  border-radius: 10px;
+}
+
+.imagem7 {
+  position: absolute;
+  width: 214.3px;
+  height: 158px;
+  left: 103px;
+  top: 1065px;
+  border-radius: 10px;
+}
+
+.quartoh2 {
+  position: absolute;
+  width: 217px;
+  height: 51px;
+  left: 103px;
+  top: 1241px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+.imagem8 {
+  position: absolute;
+  width: 213.31px;
+  height: 158px;
+  left: 369px;
+  top: 1065px;
+  border-radius: 10px;
+}
+
+.quintoh2 {
+  position: absolute;
+  width: 216px;
+  height: 34px;
+  left: 369px;
+  top: 1241px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.linha {
+  position: absolute;
+  width: 1056px;
+  height: 0px;
+  left: 6%;
+  top: 800px;
+
+  border: 1px solid #22a0a0;
+  transform: rotate(90deg);
+}
+
+.sextoh2 {
+  position: absolute;
+  width: 283px;
+  height: 34px;
+  left: 640px;
+  top: 506px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.quartoP {
+  position: absolute;
+  width: 283px;
+  height: 68px;
+  left: 640px;
+  top: 550px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.imagem9 {
+  position: absolute;
+  width: 283px;
+  height: 212px;
+  left: 640px;
+  top: 282px;
+  border-radius: 10px;
+}
